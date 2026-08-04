@@ -1,0 +1,22 @@
+.container {
+    background-color: paleturquoise;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    /* flex-direction: row; */
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.container div {
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
