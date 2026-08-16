@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="on">Turn on the light</button>
+
+    <img id="myImage" src="./assets/bulboff.gif" style="width:100px">
+
+    <button id="off">Turn off the light</button>
+
+
+    <script>
+        document.getElementById('on').addEventListener('click',function(){
+            document.getElementById("myImage").src = "./assets/bulbon.gif"
+        })
+
+          document.getElementById('off').addEventListener('click',function(){
+            document.getElementById("myImage").src = "./assets/bulboff.gif"
+        })
+    </script>
+</body>
+
+</html>
